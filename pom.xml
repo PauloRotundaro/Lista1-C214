@@ -13,15 +13,6 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-    </build>
-
     <dependencies>
         <dependency>
             <groupId>com.opencsv</groupId>
