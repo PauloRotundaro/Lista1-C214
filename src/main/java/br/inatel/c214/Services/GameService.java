@@ -7,7 +7,7 @@ import br.inatel.c214.Models.Publisher;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ServiceGame {
+public class GameService {
     public static List<Game> getByPlatform(List<Game> games, Platform platform){
         List<Game> gamesByPlatform = new ArrayList<>();
 
